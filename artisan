@@ -2,6 +2,7 @@
 <?php
 
 use Symfony\Component\Console\Input\ArgvInput;
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 define('LARAVEL_START', microtime(true));
 
